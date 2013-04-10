@@ -19,17 +19,16 @@ public class SQLHelper
      * 连接字符串  
      */    
     //public static String url = "jdbc:oracle:thin:@//157.16.17.32:1521/gsdssc";
-    public static String url="jdbc:oracle:thin:@//10.92.67.240:1521/oracle";
+    public static String url="jdbc:oracle:thin:@//10.92.67.243:1521/gsdssc";
     /**  
      * 用户名  
      */    
-    //public static String user = "db_zgxt";  
-    public static String user="system";
+    public static String user = "db_zgxt";  
     /**  
      * 密码  
      */    
     //public static String password = "gsoltp10g1101zgxt";    
-    public static String password = "zhaofan";    
+    public static String password = "123";    
 
     /**  
      * 不允许实例化该类  

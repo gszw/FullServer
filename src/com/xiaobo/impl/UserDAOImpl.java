@@ -98,7 +98,6 @@ public class UserDAOImpl implements UserDAO {
 
 				}
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -110,7 +109,9 @@ public class UserDAOImpl implements UserDAO {
 
 		case -2:// 还没有不册人员
 
-			user.setAccount("-4");
+			//user.setAccount("-2");
+			user.setAccount("这个是原来服务器返回的消息");
+
 			break;
 
 		}

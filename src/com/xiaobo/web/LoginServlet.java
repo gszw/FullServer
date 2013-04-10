@@ -33,7 +33,6 @@ public class LoginServlet extends HttpServlet {
 		String telId = req.getParameter("telId");
 		UserDAO dao = new UserDAOImpl();
 		User user = dao.login(account, password, telId);
-		System.out.println(user.getUserKey());
 		if (user != null) {
 			JSONObject obj = new JSONObject();
 			try {
@@ -51,7 +50,6 @@ public class LoginServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
-
 	}
 
 	@Override
